@@ -17,8 +17,6 @@ const TrendingPosts = () => {
 
   const { data: allPosts, isLoading, isError, error } = useFetchAllPostsQuery();
 
-  console.log();
-
   const trendingPosts = allPosts?.allPosts
     ? [...allPosts?.allPosts].sort((a, b) => b.likes.length - a.likes.length)
     : allPosts;

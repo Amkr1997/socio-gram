@@ -1,6 +1,5 @@
 import { BsHeart } from "react-icons/bs";
 import { BsHeartFill } from "react-icons/bs";
-//import { BsFillChatRightTextFill } from "react-icons/bs";
 import { BsBookmark } from "react-icons/bs";
 import { BsBookmarkCheckFill } from "react-icons/bs";
 import { BsFillTrashFill } from "react-icons/bs";

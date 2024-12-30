@@ -6,7 +6,6 @@ import {
   useFetchUserProfileQuery,
   useGetUserProfileDataQuery,
   useFollowUnfollowMutation,
-  useFetchUsersQuery,
 } from "../features/apiSlice";
 import styles from "../css/othersProfile.module.css";
 import { Link, useParams } from "react-router-dom";
@@ -37,7 +36,6 @@ const OthersProfile = () => {
   } = useGetUserProfileDataQuery(userId, {
     skip: !userId,
   });
-  // const { data: allUsers } = useFetchUsersQuery();
 
   const [followUnfollow] = useFollowUnfollowMutation();
 

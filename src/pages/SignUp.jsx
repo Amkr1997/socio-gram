@@ -15,7 +15,6 @@ const SignUp = () => {
     passConfirm: "",
   });
   const [checkTerms, setCheckTerms] = useState(false);
-  //const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const changeHandler = (e) => {

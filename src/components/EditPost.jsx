@@ -51,8 +51,6 @@ const EditPost = () => {
     navigate("/");
   };
 
-  console.log(state);
-
   return (
     <>
       <h2 className="text-center text-uppercase">

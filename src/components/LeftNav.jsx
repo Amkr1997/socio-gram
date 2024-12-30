@@ -51,13 +51,6 @@ const LeftNav = () => {
             </Link>
           </div>
         </div>
-        {/*<Link
-          to={"#"}
-          className={`${styles.createBtn} d-flex align-items-center gap-2`}
-        >
-          <BsFillPlusCircleFill className="bg-transparent" />
-          New Post
-        </Link>*/}
       </div>
     </>
   );
