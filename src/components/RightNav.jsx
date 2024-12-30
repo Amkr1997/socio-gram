@@ -44,7 +44,9 @@ const RightNav = () => {
   });
 
   useEffect(() => {
-    refetchLoginUser();
+    if (isAuthenticated) {
+      refetchLoginUser();
+    }
   }, [isAuthenticated]);
 
   return (

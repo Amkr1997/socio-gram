@@ -45,7 +45,9 @@ const Profile = () => {
   }, [location]);
 
   useEffect(() => {
-    refetchLoginUser();
+    if (isAuthenticated) {
+      refetchLoginUser();
+    }
   }, [isAuthenticated]);
 
   return (
