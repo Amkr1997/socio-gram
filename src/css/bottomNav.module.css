@@ -1,0 +1,31 @@
+@media (min-width: 62rem) {
+  .bottomNavContainer {
+    display: none !important;
+  }
+}
+
+.bottomNavContainer {
+  display: block;
+  background-color: #bac8ff;
+  width: 100%;
+
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+
+.navigate {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.icon {
+  font-size: 1.75rem !important;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #212529;
+}

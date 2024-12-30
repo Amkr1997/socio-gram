@@ -1,0 +1,32 @@
+.editBtn,
+.logOutBtn {
+  background-color: #748ffc;
+  border: none;
+  color: #212529;
+  padding: 0.125rem 0.75rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  max-width: fit-content;
+
+  text-decoration: none;
+}
+
+.editBtn:hover,
+.logOutBtn:hover {
+  background-color: #364fc7;
+  transition: all 0.2s;
+}
+
+.profileLink {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #212529;
+  text-align: center;
+}
+
+.avatar {
+  padding: 0.5rem;
+  height: 7.5rem;
+  width: 7.5rem;
+}

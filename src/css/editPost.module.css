@@ -1,0 +1,49 @@
+.postContainer {
+  background-color: #fff;
+  max-width: 90%;
+  padding: 1.25rem 1.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.postInput {
+  background-color: #f8f9fa;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.uploadIcons {
+  background-color: #fff;
+}
+
+.postBtns {
+  background-color: #fff;
+  padding: 1rem 0 0;
+}
+
+.imgUpload,
+.vidUpload {
+  font-size: 1.25rem;
+}
+
+.postBtn {
+  background-color: #748ffc;
+  border: none;
+  color: #212529;
+  padding: 0.125rem 2rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.postBtn:hover {
+  background-color: #364fc7;
+  transition: all 0.2s;
+}
+
+.authorPic {
+  height: 2.25rem;
+  width: 2.25rem;
+}

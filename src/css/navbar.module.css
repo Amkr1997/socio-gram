@@ -1,0 +1,27 @@
+@media (min-width: 62rem) {
+  .headerContainer {
+    text-align: start !important;
+  }
+}
+
+.headerContainer {
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.navBrand {
+  text-decoration: none;
+  width: fit-content;
+  display: inline-block;
+}
+
+.logo,
+.logoHalf {
+  background-color: #bac8ff;
+  width: fit-content;
+  line-height: 2.25rem;
+}
+
+.logoHalf {
+  color: #4263eb;
+}

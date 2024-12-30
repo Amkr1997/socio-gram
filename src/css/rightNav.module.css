@@ -1,0 +1,51 @@
+@media (min-width: 48.125rem) {
+  .rightNav {
+    display: block !important;
+  }
+}
+
+.rightNav {
+  display: none;
+}
+
+.searchFollowers {
+  outline: none;
+}
+
+.searchContainer {
+  border: 0.0625rem solid dodgerblue;
+
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.followBtn {
+  background-color: #748ffc;
+  border: none;
+  color: #212529;
+  padding: 0.25rem 0.25rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  /*max-width: fit-content;*/
+  min-width: fit-content;
+  width: 33%;
+
+  text-decoration: none;
+}
+
+.followBtn:hover {
+  background-color: #364fc7;
+  transition: all 0.2s;
+}
+
+.name {
+  text-decoration: none;
+  color: #212529;
+}
+
+.userImg {
+  height: 3.5rem !important;
+  width: 3.5rem !important;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 62rem) {
+  .leftNav {
+    display: block !important;
+  }
+}
+
+.leftNav {
+  display: none;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.createBtn {
+  background-color: #748ffc;
+  border: none;
+  color: #212529;
+  padding: 0.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  max-width: fit-content;
+
+  text-decoration: none;
+}
+
+.createBtn:hover,
+.insideBtn:hover {
+  background-color: #364fc7;
+  transition: all 0.2s;
+}

@@ -1,0 +1,26 @@
+@media (min-width: 75rem) {
+  .postContainer {
+    max-width: 70% !important;
+  }
+}
+
+.postContainer {
+  max-width: 90%;
+  padding: 1.25rem 1.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.postImg {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.postIcon {
+  cursor: pointer;
+}
+
+.postAuthorPic {
+  height: 2.25rem;
+  width: 2.25rem;
+}

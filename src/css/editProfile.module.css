@@ -1,0 +1,39 @@
+@media (min-width: 62rem) {
+  .submitBtn {
+    margin: 0 0 !important;
+  }
+}
+
+.avatar {
+  height: 5rem;
+  width: 5rem;
+  border: 0.125rem solid transparent;
+  cursor: pointer;
+
+  transition: all 0.1s;
+}
+
+.avatar:hover {
+  border: 0.125rem solid #364fc7;
+}
+
+/*.toSelectAvatar {
+  height: 5rem;
+  width: 5rem;
+  border: 0.125rem solid #364fc7;
+  cursor: pointer;
+
+  transition: all 0.1s;
+}*/
+
+.selectedAvatar {
+  border: 0.125rem solid #212529;
+}
+
+.notSelectedAvatar {
+  border: 0.125rem solid transparent;
+}
+
+.submitBtn {
+  margin: 0 0 2.75rem 0;
+}
