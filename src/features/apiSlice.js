@@ -299,7 +299,7 @@ const apiSlice = createApi({
           };
         },
 
-        providesTags: ["GetCompleteUserProfile", ""],
+        providesTags: ["GetCompleteUserProfile"],
       }),
     };
   },

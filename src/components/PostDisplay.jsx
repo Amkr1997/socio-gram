@@ -60,7 +60,7 @@ const PostDisplay = ({ post, isAuthenticated, profileData }) => {
       <div className={`d-flex align-items-start justify-content-start gap-2`}>
         <img
           src={
-            profileData?.displayPic ||
+            post?.author?.displayPic ||
             "https://placehold.co/40x40/dodgerblue/white"
           }
           alt="profile-Image"
