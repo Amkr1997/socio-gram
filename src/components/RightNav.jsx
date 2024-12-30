@@ -40,7 +40,7 @@ const RightNav = () => {
   };
 
   const searchUser = data?.allUsers?.filter((user) => {
-    return user.name.toLowerCase() === search.toLowerCase();
+    return user.name.toLowerCase().includes(search.toLowerCase());
   });
 
   useEffect(() => {
@@ -84,7 +84,7 @@ const RightNav = () => {
                             "https://placehold.co/50x50/dodgerblue/white"
                           }
                           alt="user-image"
-                          className="rounded-circle"
+                          className={`rounded-circle img-fluid ${styles.userImg}`}
                         />
 
                         <Link
