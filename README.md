@@ -75,3 +75,5 @@ A social media website to connect with new people by liking there post or create
 - Mongoose
 - bcrypt.js
 - CORS
+- Multer
+- Cloudinary
