@@ -1,4 +1,4 @@
-# SOCIOHAVEN
+# SOCIO-GRAM
 
 ## Live Link - https://sociog.vercel.app/
 
